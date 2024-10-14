@@ -11,11 +11,13 @@ h1 {
   font-family: var(--heading-font-family);
 }
 h2 {
-  font-size: 32px;
+  font-size: 42px;
+  font-family: var(--heading-font-family);
 }
 p {
-  font-size: 18px;
+  font-size: 22px;
   line-height: 1.7;
+  font-family: "cormorant Garamond";
 }
 .active {
   background: var(--secondary-color);
@@ -41,4 +43,17 @@ p {
   background-color: saddlebrown;
   color: var(--secondary-color);
   padding: 12px 20px;
+}
+.project-description {
+  padding: 0 40px;
+}
+@media (max-width: 900px) {
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 18px;
+  }
 }
