@@ -10,6 +10,13 @@ h1 {
   color: var(--primary-color);
   font-family: var(--heading-font-family);
 }
+h2 {
+  font-size: 32px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.7;
+}
 .active {
   background: var(--secondary-color);
   text-align: center;
