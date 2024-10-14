@@ -3,6 +3,7 @@ h1 {
   font-size: 96px;
   line-height: 1.5;
   color: sienna;
+  font-family: "Lobster", sans-serif;
 }
 .active {
   background: rgb(239, 158, 121);
@@ -15,11 +16,12 @@ h1 {
   font-weight: bold;
   margin: 0;
   color: sienna;
+  font-family: "Cormorant Garamond", serif;
 }
 .active h2 {
   font-size: 24px;
   opacity: 0.5;
-  line-height: ;
+  font-family: "Cormorant Garamond", serif;
 }
 .btn-branding {
   border-radius: 22px;
