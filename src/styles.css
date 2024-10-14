@@ -1,1 +1,30 @@
-
+h1 {
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 1.5;
+  color: sienna;
+}
+.active {
+  background: rgb(239, 158, 121);
+  text-align: center;
+  height: 75vh;
+  padding: 120px 0;
+}
+.active p {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  color: sienna;
+}
+.active h2 {
+  font-size: 24px;
+  opacity: 0.5;
+  line-height: ;
+}
+.btn-branding {
+  border-radius: 22px;
+  font-size: 18px;
+  background-color: saddlebrown;
+  color: rgb(239, 158, 121);
+  padding: 12px 20px;
+}
