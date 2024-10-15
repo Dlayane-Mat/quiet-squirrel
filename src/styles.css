@@ -11,13 +11,18 @@ h1 {
   font-family: var(--heading-font-family);
 }
 h2 {
-  font-size: 42px;
+  font-size: 52px;
   font-family: var(--heading-font-family);
+  color: var(--primary-color);
 }
 p {
-  font-size: 22px;
+  font-size: 32px;
   line-height: 1.7;
   font-family: "cormorant Garamond";
+  opacity: 0.7;
+}
+.project-description p {
+  font-size: 22px;
 }
 .active {
   background: var(--secondary-color);
