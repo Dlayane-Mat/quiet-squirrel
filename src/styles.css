@@ -39,15 +39,22 @@ p {
 }
 .active h2 {
   font-size: 24px;
-  opacity: 0.5;
+  opacity: 0.6;
   font-family: "Cormorant Garamond", serif;
 }
 .btn-branding {
   border-radius: 22px;
-  font-size: 18px;
+  font-size: 22px;
   background-color: saddlebrown;
   color: var(--secondary-color);
-  padding: 12px 20px;
+  padding: 16px 35px;
+}
+.btn-outline {
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: var(--secondary-color);
+  color: saddlebrown;
+  padding: 14px 30px;
 }
 .project-description {
   padding: 0 40px;
