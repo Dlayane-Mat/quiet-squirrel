@@ -68,4 +68,13 @@ p {
     text-align: center;
     font-size: 18px;
   }
+  h1 {
+    font-size: 80px;
+  }
+  .btn-branding {
+  border-radius: 2px;
+  font-size: 18px;
+  background-color: saddlebrown(--secondary-color);
+  color:var(--secondary-color) ;
+  padding: 14px 30px;
 }
